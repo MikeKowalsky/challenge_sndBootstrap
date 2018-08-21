@@ -163,3 +163,11 @@
     background: none repeat #6f42c1;
     opacity: .6;
 }
+
+.my-footer-header::after{
+    content: '';
+    display: block;
+    border: 1px solid #ffc107;
+    width: 100%;
+    margin: 5px 0 10px 0;
+}

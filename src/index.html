@@ -29,11 +29,11 @@
                     </ul>
 
                     <form class="form-inline">
-                        <button class="btn btn-danger">
+                        <input class="form-control form-control-sm mr-3" type="search" placeholder="Wyszukaj" aria-label="Wyszukaj">
+                        <button class="btn btn-danger my-3">
                             <i class="fas fa-search" aria-hidden="true"></i>
                             Szukaj
                         </button>
-                        <input class="form-control form-control-sm ml-3" type="search" placeholder="Wyszukaj" aria-label="Wyszukaj">
                     </form>
                 </div>
             </div>
@@ -125,7 +125,7 @@
                     </div>
                 </div>
                 <div class="col d-none d-xl-block">
-                    <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex justify-content-around flex-wrap">
                         <img src="https://images.unsplash.com/photo-1519377483941-d4c7ea7ae521?ixlib=rb- 0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0797cf41f9f4fd2c1ad83f46e95676f2&auto=format&fit=crop&w=180&q=60" alt="realizacja 2" class="img-fluid mb-3">
                         <img src="https://images.unsplash.com/photo-1527664557558-a2b352fcf203?ixlib=rb- 0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4341976025ae49162643ccdb47a72a4d&auto=format&fit=crop&w=182&q= 80" alt="realizacja 3" class="img-fluid mb-3">
                         <img src="https://images.unsplash.com/photo-1505569127510-bde1536937bc?ixlib=rb- 0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f623ec8a2d95440617901f85d4988cba&auto=format&fit=crop&w=180&q=60" alt="realizacja 4" class="img-fluid mb-3">
@@ -332,6 +332,79 @@
             </div>
         </div>
     </section>
+
+    <footer class="my-section-footer bg-dark text-white p-4 text-sm-center text-lg-left">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 d-flex flex-column">
+                    <h5 class="text-uppercase my-footer-header">Najnowsze wpisy</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-warning">Lorem, ipsum dolor.</a></li>
+                        <li><a href="#" class="text-warning">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#" class="text-warning">Lorem, ipsum.</a></li>
+                        <li><a href="#" class="text-warning">Lorem ipsum dolor sit.</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex flex-column">
+                    <h5 class="text-uppercase my-footer-header">O nas</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, beatae.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex flex-column">
+                    <h5 class="text-uppercase my-footer-header">Newsletter</h5>
+                    <div class="my-footer-form">
+                        <form action="" class="justify-content-center"> 
+                            <div class="form-group">
+                                <input type="email" id="email" class="form-control" placeholder="Wpisz adres e-mail">
+                            </div>
+                            <button type="submit" class="btn btn-warning btn-sm btn-block">Zapisz się</button> 
+                        </form>
+                    </div>
+                    <div class="row my-footer-social-icon d-flex flex-wrap my-4">
+                        <div class="col-sm-4 col-lg-2">
+                            <a href="#" class="text-warning"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="col-sm-4 col-lg-2">
+                            <a href="#" class="text-warning"><i class="fab fa-google-plus"></i></a>
+                        </div>
+                        <div class="col-sm-4 col-lg-2">
+                            <a href="#" class="text-warning"><i class="fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-sm-4 col-lg-2">
+                            <a href="#" class="text-warning"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="col-sm-4 col-lg-2">
+                            <a href="#" class="text-warning"><i class="fab fa-twitter"></i></a>
+                        </div>
+                        <div class="col-sm-4 col-lg-2">
+                            <a href="#" class="text-warning"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex flex-column">
+                    <h5 class="text-uppercase my-footer-header">Kontakt</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="fas fa-envelope mr-3"></i>
+                            kontakt@kontakt.pl
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt mr-3"></i>
+                            ul. Dluga 17 Wronki
+                        </li>
+                        <li>
+                            <i class="fas fa-phone mr-3"></i>
+                            123-456-789
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row text-center border border-warning border-left-0 border-right-0">
+                <div class="col">
+                    <p class="my-2">Strona zaprojektowana przez <a class="text-white" href="https://bedeprogramistka.pl">BedeProgramistka.pl</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
