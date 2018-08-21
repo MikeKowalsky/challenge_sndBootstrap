@@ -119,3 +119,17 @@
     -webkit-box-shadow: 0 20px 35px 0 rgba(111, 63, 193, 0.5);
     box-shadow: 0 20px 35px 0 rgba(111, 63, 193, 0.5);
 }
+
+.my-team-text::after{
+    content: '';
+    display: block;
+    border: 1px solid #ffc107;
+    width: 200px;
+    margin: 30px auto;
+}
+
+.my-team-img{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
